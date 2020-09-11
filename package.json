@@ -1,0 +1,43 @@
+{
+  "name": "sapper-typescript-smui-template",
+  "description": "Sapper template with TypeScript and Svelte Material UI support",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run"
+  },
+  "dependencies": {
+    "compression": "^1.7.1",
+    "polka": "next",
+    "sirv": "^1.0.6"
+  },
+  "devDependencies": {
+    "@smui/button": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "css-loader": "^4.3.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "mini-css-extract-plugin": "^0.11.1",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "reflect-metadata": "^0.1.13",
+    "sapper": "^0.28.6",
+    "sass-loader": "^10.0.2",
+    "scss-loader": "0.0.1",
+    "style-loader": "^1.2.1",
+    "svelte": "^3.25.0",
+    "svelte-loader": "^2.9.0",
+    "svelte-preprocess": "^4.2.1",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1"
+  }
+}
