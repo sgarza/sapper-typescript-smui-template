@@ -1,4 +1,4 @@
-# sapper-typescrpt-smui-template
+# sapper-typescript-smui-template
 
 The default [Sapper](https://github.com/sveltejs/sapper#webpack) template using webpack, with included support for [SMUI](https://github.com/hperrin/svelte-material-ui) and [TypeScript](https://www.typescriptlang.org/).
 
@@ -6,10 +6,10 @@ The default [Sapper](https://github.com/sveltejs/sapper#webpack) template using 
 
 ### Using `degit`
 
-[`degit`](https://github.com/sgarza/sapper-typescrpt-smui-template) is a scaffolding tool that lets you create a directory from a branch in a repository.
+[`degit`](https://github.com/sgarza/sapper-typescript-smui-template) is a scaffolding tool that lets you create a directory from a branch in a repository.
 
 ```bash
-npx degit "https://github.com/sgarza/sapper-typescrpt-smui-template" my-app
+npx degit "https://github.com/sgarza/sapper-typescript-smui-template" my-app
 ```
 
 ### Using GitHub templates
